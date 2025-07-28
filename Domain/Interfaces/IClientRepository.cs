@@ -10,5 +10,7 @@ namespace Domain.Interfaces
     public interface IClientRepository
     {
         public Task<List<Client>> GetAllAsync();
+        public Task<Client> GetByIdAsync(int id);
+        
     }
 }

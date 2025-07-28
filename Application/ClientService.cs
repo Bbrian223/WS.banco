@@ -14,9 +14,14 @@ namespace Application
             _clientRepository = clientRepository;
         }
 
-        public Task<List<Client>> GetAllAsync()
+        public async Task<List<Client>> GetAllAsync()
         {
-            return _clientRepository.GetAllAsync();
+            return await _clientRepository.GetAllAsync();
+        }
+
+        public async Task<Client> GetByIdAsync(int id)
+        {
+            return await _clientRepository.GetByIdAsync(id);
         }
     }
 }

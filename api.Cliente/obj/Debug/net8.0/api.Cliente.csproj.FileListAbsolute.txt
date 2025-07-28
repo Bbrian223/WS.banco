@@ -88,3 +88,4 @@ C:\Users\Cristal Barrera\Documents\proyectos Brian\Proyects\WS.Banco\api.Cliente
 C:\Users\Cristal Barrera\Documents\proyectos Brian\Proyects\WS.Banco\api.Cliente\obj\Debug\net8.0\api.Cliente.pdb
 C:\Users\Cristal Barrera\Documents\proyectos Brian\Proyects\WS.Banco\api.Cliente\obj\Debug\net8.0\api.Cliente.genruntimeconfig.cache
 C:\Users\Cristal Barrera\Documents\proyectos Brian\Proyects\WS.Banco\api.Cliente\obj\Debug\net8.0\ref\api.Cliente.dll
+C:\Users\Cristal Barrera\Documents\proyectos Brian\Proyects\WS.Banco\api.Cliente\obj\Debug\net8.0\api.Cliente.sourcelink.json

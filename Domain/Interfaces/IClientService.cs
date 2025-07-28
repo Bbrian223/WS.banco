@@ -10,5 +10,6 @@ namespace Domain.Interfaces
     public interface IClientService
     {
         public Task<List<Client>> GetAllAsync();
+        public Task<Client> GetByIdAsync(int id);
     }
 }

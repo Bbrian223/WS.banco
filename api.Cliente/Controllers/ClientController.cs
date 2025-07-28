@@ -17,10 +17,33 @@ namespace api.Cliente.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetClients() 
+        public async Task<IActionResult> GetClients()
         {
-            var result = await _clientService.GetAllAsync();
-            return Ok(result);
+            try
+            {
+                var result = await _clientService.GetAllAsync();
+                return Ok(result);
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, "Error al obtener los datos de los clientes");
+            }
         }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetClientById(int id)
+        {
+            try
+            {
+                var result = await _clientService.GetByIdAsync(id);
+                return Ok(result);
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, "Error al obtener los datos del cliente: " + id);
+            }
+        }
+
+
     }
 }

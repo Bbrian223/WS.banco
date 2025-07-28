@@ -15,3 +15,4 @@ C:\Users\Cristal Barrera\Documents\proyectos Brian\Proyects\WS.Banco\Application
 C:\Users\Cristal Barrera\Documents\proyectos Brian\Proyects\WS.Banco\Application\obj\Debug\net8.0\refint\Application.dll
 C:\Users\Cristal Barrera\Documents\proyectos Brian\Proyects\WS.Banco\Application\obj\Debug\net8.0\Application.pdb
 C:\Users\Cristal Barrera\Documents\proyectos Brian\Proyects\WS.Banco\Application\obj\Debug\net8.0\ref\Application.dll
+C:\Users\Cristal Barrera\Documents\proyectos Brian\Proyects\WS.Banco\Application\obj\Debug\net8.0\Application.sourcelink.json

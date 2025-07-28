@@ -13,3 +13,4 @@ C:\Users\Cristal Barrera\Documents\proyectos Brian\Proyects\WS.Banco\Infrastruct
 C:\Users\Cristal Barrera\Documents\proyectos Brian\Proyects\WS.Banco\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
 C:\Users\Cristal Barrera\Documents\proyectos Brian\Proyects\WS.Banco\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 C:\Users\Cristal Barrera\Documents\proyectos Brian\Proyects\WS.Banco\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\Cristal Barrera\Documents\proyectos Brian\Proyects\WS.Banco\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
