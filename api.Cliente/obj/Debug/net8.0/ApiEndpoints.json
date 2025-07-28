@@ -11,6 +11,22 @@
   },
   {
     "ContainingType": "api.Cliente.Controllers.ClientController",
+    "Method": "SetClient",
+    "RelativePath": "api/Client",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "client",
+        "Type": "Domain.Entities.Client",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api.Cliente.Controllers.ClientController",
     "Method": "GetClientById",
     "RelativePath": "api/Client/{id}",
     "HttpMethod": "GET",

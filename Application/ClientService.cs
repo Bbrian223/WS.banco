@@ -23,5 +23,20 @@ namespace Application
         {
             return await _clientRepository.GetByIdAsync(id);
         }
+
+        public Task<bool> RemoveByIdAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task<bool> SetAsync(Client client)
+        {
+            return await _clientRepository.SetAsync(client);
+        }
+
+        public Task<bool> UpdateByIdAsync(Client client)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

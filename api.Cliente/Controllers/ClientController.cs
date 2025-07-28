@@ -44,6 +44,23 @@ namespace api.Cliente.Controllers
             }
         }
 
+        [HttpPost]
+        public async Task<IActionResult> SetClient(Client client) 
+        {
+            try
+            {
+                var result = await _clientService.SetAsync(client);
 
+                if (!result) 
+                    throw new Exception();
+
+                return Ok(result);
+            }
+            catch (Exception)
+            {
+                return StatusCode(500,"Error al cargar el cliente");
+            }
+
+        }
     }
 }

@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{809DFE5F-72CE-4F39-B7B2-863248475773}|api.Cliente\\api.Cliente.csproj|solutionrelative:api.cliente\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76FB68B0-01FC-41CC-94DF-EECAD4617E44}|Infrastructure\\Infrastructure.csproj|c:\\users\\cristal barrera\\documents\\proyectos brian\\proyects\\ws.banco\\infrastructure\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76FB68B0-01FC-41CC-94DF-EECAD4617E44}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D460AC83-45F6-4978-931A-772AD6C54761}|Domain\\Domain.csproj|c:\\users\\cristal barrera\\documents\\proyectos brian\\proyects\\ws.banco\\domain\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D460AC83-45F6-4978-931A-772AD6C54761}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E1BA4F2F-EFBF-4948-A4DD-7FC5814E31C4}|Application\\Application.csproj|c:\\users\\cristal barrera\\documents\\proyectos brian\\proyects\\ws.banco\\application\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1BA4F2F-EFBF-4948-A4DD-7FC5814E31C4}|Application\\Application.csproj|solutionrelative:application\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D460AC83-45F6-4978-931A-772AD6C54761}|Domain\\Domain.csproj|c:\\users\\cristal barrera\\documents\\proyectos brian\\proyects\\ws.banco\\domain\\interfaces\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D460AC83-45F6-4978-931A-772AD6C54761}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76FB68B0-01FC-41CC-94DF-EECAD4617E44}|Infrastructure\\Infrastructure.csproj|c:\\users\\cristal barrera\\documents\\proyectos brian\\proyects\\ws.banco\\infrastructure\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76FB68B0-01FC-41CC-94DF-EECAD4617E44}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D460AC83-45F6-4978-931A-772AD6C54761}|Domain\\Domain.csproj|c:\\users\\cristal barrera\\documents\\proyectos brian\\proyects\\ws.banco\\domain\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D460AC83-45F6-4978-931A-772AD6C54761}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,13 +34,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "IClientRepository.cs",
               "DocumentMoniker": "C:\\Users\\Cristal Barrera\\Documents\\proyectos Brian\\Proyects\\WS.Banco\\Domain\\Interfaces\\IClientRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IClientRepository.cs",
               "ToolTip": "C:\\Users\\Cristal Barrera\\Documents\\proyectos Brian\\Proyects\\WS.Banco\\Domain\\Interfaces\\IClientRepository.cs",
               "RelativeToolTip": "Domain\\Interfaces\\IClientRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-28T00:23:19.541Z",
               "IsPinned": true,
@@ -48,13 +48,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ClientRepository.cs",
               "DocumentMoniker": "C:\\Users\\Cristal Barrera\\Documents\\proyectos Brian\\Proyects\\WS.Banco\\Infrastructure\\Repositories\\ClientRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ClientRepository.cs",
               "ToolTip": "C:\\Users\\Cristal Barrera\\Documents\\proyectos Brian\\Proyects\\WS.Banco\\Infrastructure\\Repositories\\ClientRepository.cs",
               "RelativeToolTip": "Infrastructure\\Repositories\\ClientRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAUwKIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-28T00:23:29.418Z",
               "IsPinned": true,
@@ -62,13 +62,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "IClientService.cs",
               "DocumentMoniker": "C:\\Users\\Cristal Barrera\\Documents\\proyectos Brian\\Proyects\\WS.Banco\\Domain\\Interfaces\\IClientService.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IClientService.cs",
               "ToolTip": "C:\\Users\\Cristal Barrera\\Documents\\proyectos Brian\\Proyects\\WS.Banco\\Domain\\Interfaces\\IClientService.cs",
               "RelativeToolTip": "Domain\\Interfaces\\IClientService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-28T00:23:47.487Z",
               "IsPinned": true,
@@ -76,13 +76,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ClientService.cs",
               "DocumentMoniker": "C:\\Users\\Cristal Barrera\\Documents\\proyectos Brian\\Proyects\\WS.Banco\\Application\\ClientService.cs",
               "RelativeDocumentMoniker": "Application\\ClientService.cs",
               "ToolTip": "C:\\Users\\Cristal Barrera\\Documents\\proyectos Brian\\Proyects\\WS.Banco\\Application\\ClientService.cs",
               "RelativeToolTip": "Application\\ClientService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-28T00:23:54.623Z",
               "IsPinned": true,
@@ -96,11 +96,15 @@
               "RelativeDocumentMoniker": "api.Cliente\\Controllers\\ClientController.cs",
               "ToolTip": "C:\\Users\\Cristal Barrera\\Documents\\proyectos Brian\\Proyects\\WS.Banco\\api.Cliente\\Controllers\\ClientController.cs",
               "RelativeToolTip": "api.Cliente\\Controllers\\ClientController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAADwvyQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-28T00:24:00.98Z",
               "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

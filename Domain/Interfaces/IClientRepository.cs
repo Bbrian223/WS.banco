@@ -11,6 +11,9 @@ namespace Domain.Interfaces
     {
         public Task<List<Client>> GetAllAsync();
         public Task<Client> GetByIdAsync(int id);
+        public Task<bool> SetAsync(Client client);
+        public Task<bool> UpdateByIdAsync(Client client);
+        public Task<bool> RemoveByIdAsync(int id);
         
     }
 }
