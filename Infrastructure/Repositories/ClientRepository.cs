@@ -91,7 +91,7 @@ namespace Infrastructure.Repositories
             }
         }
 
-        public async Task<bool> SetAsync(Client client)
+        public async Task<bool> AddAsync(Client client)
         {
             try
             {
@@ -115,7 +115,7 @@ namespace Infrastructure.Repositories
             }
         }
 
-        public async Task<bool> UpdateByIdAsync(Client client)
+        public async Task<bool> UpdateAsync(Client client)
         {
             try
             {

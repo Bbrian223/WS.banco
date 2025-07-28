@@ -40,7 +40,7 @@ namespace api.Cliente.Controllers
             }
             catch (Exception)
             {
-                return StatusCode(500, "Error al obtener los datos del cliente: " + id);
+                return StatusCode(500, $"Error al obtener los datos del cliente: {id}");
             }
         }
 
@@ -49,7 +49,7 @@ namespace api.Cliente.Controllers
         {
             try
             {
-                var result = await _clientService.SetAsync(client);
+                var result = await _clientService.AddAsync(client);
 
                 if (!result) 
                     throw new Exception();
@@ -68,7 +68,7 @@ namespace api.Cliente.Controllers
         {
             try
             {
-                var result = await _clientService.UpdateByIdAsync(client);
+                var result = await _clientService.UpdateAsync(client);
 
                 if (!result)
                     throw new Exception();
@@ -77,9 +77,28 @@ namespace api.Cliente.Controllers
             }
             catch (Exception)
             {
-                return StatusCode(500, "Error al actualizar los datos del cliente");
+                return StatusCode(500, $"Error al actualizar los datos del cliente: {client.id}");
             }
 
         }
+
+        [HttpDelete]
+        public async Task<IActionResult> RemoveClient(int id)
+        {
+            try
+            {
+                var result = await _clientService.RemoveByIdAsync(id);
+
+                if (!result)
+                    throw new Exception();
+
+                return Ok(result);
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, $"Error al dar de baja al cliente: {id}");
+            }
+        }
+
     }
 }

@@ -24,19 +24,19 @@ namespace Application
             return await _clientRepository.GetByIdAsync(id);
         }
 
-        public Task<bool> RemoveByIdAsync(int id)
+        public async Task<bool> RemoveByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _clientRepository.RemoveByIdAsync(id);
         }
 
-        public async Task<bool> SetAsync(Client client)
+        public async Task<bool> AddAsync(Client client)
         {
-            return await _clientRepository.SetAsync(client);
+            return await _clientRepository.AddAsync(client);
         }
 
-        public async Task<bool> UpdateByIdAsync(Client client)
+        public async Task<bool> UpdateAsync(Client client)
         {
-            return await _clientRepository.UpdateByIdAsync(client);
+            return await _clientRepository.UpdateAsync(client);
         }
     }
 }
