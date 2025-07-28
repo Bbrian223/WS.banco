@@ -34,9 +34,9 @@ namespace Application
             return await _clientRepository.SetAsync(client);
         }
 
-        public Task<bool> UpdateByIdAsync(Client client)
+        public async Task<bool> UpdateByIdAsync(Client client)
         {
-            throw new NotImplementedException();
+            return await _clientRepository.UpdateByIdAsync(client);
         }
     }
 }

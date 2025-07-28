@@ -11,9 +11,25 @@
   },
   {
     "ContainingType": "api.Cliente.Controllers.ClientController",
-    "Method": "SetClient",
+    "Method": "AddClient",
     "RelativePath": "api/Client",
     "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "client",
+        "Type": "Domain.Entities.Client",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api.Cliente.Controllers.ClientController",
+    "Method": "UpdateClient",
+    "RelativePath": "api/Client",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [

@@ -45,7 +45,7 @@ namespace api.Cliente.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> SetClient(Client client) 
+        public async Task<IActionResult> AddClient(Client client) 
         {
             try
             {
@@ -59,6 +59,25 @@ namespace api.Cliente.Controllers
             catch (Exception)
             {
                 return StatusCode(500,"Error al cargar el cliente");
+            }
+
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> UpdateClient(Client client)
+        {
+            try
+            {
+                var result = await _clientService.UpdateByIdAsync(client);
+
+                if (!result)
+                    throw new Exception();
+
+                return Ok(result);
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, "Error al actualizar los datos del cliente");
             }
 
         }

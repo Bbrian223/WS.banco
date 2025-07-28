@@ -14,7 +14,7 @@ namespace Infrastructure.Repositories
         private readonly string getByIdQuery = @"SELECT*FROM UserAccount WHERE id = @id";
         private readonly string setQuery = @"INSERT INTO UserAccount (username, password, user_type) 
                                              VALUES(@name, @pass, @type)";
-        private readonly string updateByIdQuery = @"UPDATE UserAccount SET [username] = @name, [password] = @pass
+        private readonly string updateByIdQuery = @"UPDATE UserAccount SET [username] = @name, [password] = @pass,
                                                     [user_type] = @type, [status] = @status WHERE [id] = @id";
         private readonly string removeByIdQuery = @"UPDATE UserAccount SET [status] = 0 WHERE [id] = @id";
 
@@ -129,6 +129,7 @@ namespace Infrastructure.Repositories
                         command.Parameters.AddWithValue("@pass", client.pass);
                         command.Parameters.AddWithValue("@type", client.type);
                         command.Parameters.AddWithValue("@status", client.status);
+                        command.Parameters.AddWithValue("@id", client.id);
 
                         return await command.ExecuteNonQueryAsync() > 0;
                     }
