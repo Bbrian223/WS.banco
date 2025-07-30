@@ -43,8 +43,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-28T00:23:19.541Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -57,8 +56,7 @@
               "ViewState": "AgIAAFMAAAAAAAAAAAAwwBAAAAByAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-28T00:23:29.418Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -71,8 +69,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-28T00:23:47.487Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -85,8 +82,7 @@
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwBwAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-28T03:28:58.358Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -96,7 +92,7 @@
               "RelativeDocumentMoniker": "api.Cliente\\Controllers\\ClientController.cs",
               "ToolTip": "C:\\Users\\Cristal Barrera\\Documents\\proyectos Brian\\Proyects\\WS.Banco\\api.Cliente\\Controllers\\ClientController.cs",
               "RelativeToolTip": "api.Cliente\\Controllers\\ClientController.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAcwFQAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAIwFwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-28T00:24:00.98Z",
               "IsPinned": true,
