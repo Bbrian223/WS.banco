@@ -1,4 +1,5 @@
-﻿using Domain.Entities;
+﻿using Application.Responce;
+using Domain.Entities;
 using Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -19,34 +20,44 @@ namespace api.Cliente.Controllers
         [HttpGet]
         public async Task<IActionResult> GetClients()
         {
+            ApiResponce<List<Client>> responce = new ApiResponce<List<Client>>();
+
             try
             {
                 var result = await _clientService.GetAllAsync();
-                return Ok(result);
+                responce.Success(result);
             }
             catch (Exception)
             {
-                return StatusCode(500, "Error al obtener los datos de los clientes");
+                responce.Error("Error al obtener los clientes");
             }
+
+            return Ok(responce);
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetClientById(int id)
         {
+            ApiResponce<Client> responce = new ApiResponce<Client>();
+
             try
             {
                 var result = await _clientService.GetByIdAsync(id);
-                return Ok(result);
+                responce.Success(result);
             }
             catch (Exception)
             {
-                return StatusCode(500, $"Error al obtener los datos del cliente: {id}");
+                responce.Error($"Error al obtnener los datos del cliente: {id}");
             }
+
+            return Ok(responce);
         }
 
         [HttpPost]
         public async Task<IActionResult> AddClient(Client client) 
         {
+            ApiResponce<bool> responce = new ApiResponce<bool>();
+
             try
             {
                 var result = await _clientService.AddAsync(client);
@@ -54,18 +65,21 @@ namespace api.Cliente.Controllers
                 if (!result) 
                     throw new Exception();
 
-                return Ok(result);
+                responce.Success(result);
             }
             catch (Exception)
             {
-                return StatusCode(500,"Error al cargar el cliente");
+                responce.Error("Error al generar crear el nuevo cliente");
             }
 
+            return Ok(responce);
         }
 
         [HttpPut]
         public async Task<IActionResult> UpdateClient(Client client)
         {
+            ApiResponce<bool> responce = new ApiResponce<bool>();
+
             try
             {
                 var result = await _clientService.UpdateAsync(client);
@@ -73,18 +87,21 @@ namespace api.Cliente.Controllers
                 if (!result)
                     throw new Exception();
 
-                return Ok(result);
+                responce.Success(result);
             }
             catch (Exception)
             {
-                return StatusCode(500, $"Error al actualizar los datos del cliente: {client.id}");
+                responce.Error($"Error al actualizar los datos del cliente: {client.id}");
             }
 
+            return Ok(responce);
         }
 
         [HttpDelete]
         public async Task<IActionResult> RemoveClient(int id)
         {
+            ApiResponce<bool> responce = new ApiResponce<bool>();
+
             try
             {
                 var result = await _clientService.RemoveByIdAsync(id);
@@ -92,12 +109,14 @@ namespace api.Cliente.Controllers
                 if (!result)
                     throw new Exception();
 
-                return Ok(result);
+                responce.Success(result);
             }
             catch (Exception)
             {
-                return StatusCode(500, $"Error al dar de baja al cliente: {id}");
+                responce.Error($"Error al dar de baja al cliente: {id}");
             }
+
+            return Ok(responce);
         }
 
     }

@@ -17,6 +17,18 @@ namespace api.Cliente
             builder.Services.AddScoped<IClientRepository, ClientRepository>();
             builder.Services.AddScoped<ISqlConnectionFactory, SqlConnectionFactory>();
 
+            // Cors para frontend angular:
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("URL-front", policy =>
+                {
+                    policy.WithOrigins("http://localhost:4200") 
+                          .AllowAnyHeader()
+                          .AllowAnyMethod();
+                });
+            });
+
+
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -36,6 +48,7 @@ namespace api.Cliente
 
             app.UseAuthorization();
 
+            app.UseCors("URL-front");
 
             app.MapControllers();
 

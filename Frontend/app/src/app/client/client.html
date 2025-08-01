@@ -1,0 +1,10 @@
+<p>client works!</p>
+
+<div>   
+    <input #idCliente type="number">
+    <button (click)="getClientById(+idCliente.value)">Buscar cliente</button>
+
+    <br><br>
+
+    <button (click)="getAllClients()">Buscar Todos</button>
+</div>
